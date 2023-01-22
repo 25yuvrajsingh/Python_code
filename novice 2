@@ -1,0 +1,43 @@
+A variable's type can change during the running of a program, if its value changes.
+At any point, you can use the type() command to find the data type of a particular variable.
+
+code:--
+
+a = 32
+b = "Fire"
+c = 99.99
+d = False
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+a = 8.1
+print(type(a))                                  # The data type of a variable can change
+
+outout:--
+
+<class 'int'>
+<class 'str'>
+<class 'float'>
+<class 'bool'>
+<class 'float'>
+
+
+####################################################
+
+String datatype is unique as it requires the user to insert the value in double quotations - " " or single quotations - ' '.
+Otherwise the value is not considered as a string.
+5 is an integer, but "5" is a string containing the character '5'. They are different entities.
+
+code:-
+
+a = 5
+b = "5"
+print(type(a))
+print(type(b))
+
+output:--
+
+<class 'int'>
+<class 'str'>
+
